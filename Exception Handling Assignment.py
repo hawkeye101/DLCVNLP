@@ -13,3 +13,6 @@ verbs = ['play','watch']
 objects = ['Baseball','Cricket']
 
 res = [i + ' ' + j + ' ' + k + '.' for i in subjects for j in verbs for k in objects]
+
+for index in range(len(res)):
+    print(res[index])
