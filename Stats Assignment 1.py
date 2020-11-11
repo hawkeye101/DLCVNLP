@@ -29,7 +29,7 @@ f = [0.09,0.15,0.4,0.25,0.1,0.01]
 mean = np.sum([a*b for a,b in zip(x,f)])
 print('Mean = %f' % mean)
 deviation = x - mean
-variance = np.sum([a*a*b/(len(x)-1) for a,b in zip(deviation,f)])
+variance = np.sum([a*a*b for a,b in zip(deviation,f)])
 #std_deviation = np.sqrt(variance)
 print('Variance = %f' % variance)
 print('\n')
