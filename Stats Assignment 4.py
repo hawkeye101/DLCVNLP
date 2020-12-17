@@ -83,7 +83,7 @@ MSW = mean([v1, v2, v3])
 f_statistic = MSB/MSW
 
 print('\nF statistic = %f' % (f_statistic))
-print('p-value = %f' % (1-f.cdf(f_statistic, n-1, m*(m-1))))
+print('p-value = %f' % (1-f.cdf(f_statistic, n-1, n*(m-1))))
 print('Thus, we reject the null hypothesis with 95% confidence.\n')
 
 # Problem 3
@@ -112,5 +112,5 @@ MSW = mean([v1, v2])
 f_statistic = MSB/MSW
 
 print('\nF statistic = %f' % (f_statistic))
-print('p-value = %f' % (1-f.cdf(f_statistic, n-1, m*(m-1))))
+print('p-value = %f' % (1-f.cdf(f_statistic, n-1, n*(m-1))))
 print('Thus, we cannot reject the null hypothesis with 95% confidence.')
