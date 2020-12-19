@@ -10,7 +10,7 @@ n = data.shape[1]
 no_of_features = n
 
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(data, labels, test_size=0.80, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(data, labels, test_size=0.30, random_state=42)
 
 ## Linear regression using sklearn
 # from sklearn.linear_model import LinearRegression
