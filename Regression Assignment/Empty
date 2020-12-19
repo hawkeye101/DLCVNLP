@@ -1,1 +1,12 @@
+The data file "Twitter.data" is taken from here:
+https://archive.ics.uci.edu/ml/datasets/Buzz+in+social+media+
 
+The dataset is called "Buzz in social media"
+Creators :
+François Kawala (1,2) Ahlame Douzal (1) Eric Gaussier (1) Eustache Diemert (2)
+Institutions :
+(1) Université Joseph Fourier (Grenoble I)
+Laboratoire d'informatique de Grenoble (LIG)
+(2) BestofMedia Group
+
+This is a linear regression model created using tensorflow/keras which also contains an implementation using sklearn.
