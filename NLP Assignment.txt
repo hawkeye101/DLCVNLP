@@ -1,0 +1,11 @@
+1. Morphology is the study of how words are structured. Words have prefix, suffix, root, etc.
+2. Pragmatic ambiguity is when literal interpretation of sentence is not sufficient, because there are extra implied meanings which are assumed to be common knowledge.
+3. Parts-of-speech categories include nouns, pronouns, verb, adjective, adverb, preposition, etc.
+	Noun: Car, laptop, water
+	Pronoun: He, she, they
+	Verb: Eat, drink, sleep
+	Adjective: Beautiful, ugly, elegant
+	Adverb: Fast, slowly
+	Preposition: Because, since
+4. IOB Format is used for chunking text. IOB stands for Inside-Outside-Beginning. Inside (I) refers to inside a chunk, outside (O) is used for words that are not 'Named Entity' (noun) hence not part of a chunk, beginning (B) is used for beginning of a chunk.
+5. Computational lexicology is the use of computers to build and study dictionary-type data.
