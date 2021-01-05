@@ -1,0 +1,17 @@
+1. Why do we need to convert words into vector?
+Ans: Words need to be converted to vector because word feature information is only present in word vector. It is needed to mathematically analyze a word.
+
+2. What are the differences in between CBOW (Continuous-Bag-of-Words) and Skip-gram?
+Ans: CBOW predicts a single word from context (output is single word). Skipgram predicts a larger number of words from a single word (input is single word).
+
+3. Is CBOW and BOW (Bag-of-words) are the same?
+Ans: BOW is the process of converting a word or sentence into a word embedding. CBOW is a model which takes the word embeddings to predict another word.
+
+4. What are the use cases of CBOW and Skip-gram?
+Ans: CBOW is used when we want to predict the most probable word to fill a blank in a sentence. Skipgram is used when we want to find context for a word, especially a rare word.
+
+5. Do you know any alternatives of Word2Vec?
+Ans: Stanford GloVe
+
+6. Define Word Embedding in your own words.
+Ans: Word Embedding is mapping a word or sentence to a vector in order to be utilized by learning models.
