@@ -1,0 +1,6 @@
+1. RNN and LSTM are deep learning techniques used to handle textual data.
+2. RNN is a deep learning model where the input is variable length. We use them for handling textual data because sentences have variable length.
+3. RNN does not have long-term memory. LSTM uses cell state to selectively forget information.
+4. During backpropagation, when there are large number of layers, gradient values become very small or large because they multiply. That is called vanishing gradient and gradient explosion.
+5. LSTM stands for Long-Short-Term-Memory. It is a modification of RNN where each layer has 3 gates: input gate, output gate, memory gate.
+6. LSTM can do everything RNN can do, and also work on textual data because long-term dependencies are important.
